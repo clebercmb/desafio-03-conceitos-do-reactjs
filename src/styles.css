@@ -37,3 +37,21 @@ div li button {
   margin: 0 15px;
   background: #ca4949;
 }
+
+div li {
+  display:  flex;
+  justify-content: space-between;
+  width: 450px;
+}
+
+.new-repositories-item {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+.new-repositories-item label {
+  width: 10%;
+} 
+.new-repositories-item input {
+  width: 88%;
+} 
